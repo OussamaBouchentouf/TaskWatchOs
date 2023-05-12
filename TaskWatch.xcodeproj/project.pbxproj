@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E28632F72A0D42E400C09CC1 /* TaskWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E28632F62A0D42E400C09CC1 /* TaskWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E28632FC2A0D42E400C09CC1 /* TaskWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28632FB2A0D42E400C09CC1 /* TaskWatchApp.swift */; };
+		E28632FE2A0D42E400C09CC1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28632FD2A0D42E400C09CC1 /* ContentView.swift */; };
+		E28633002A0D42E700C09CC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E28632FF2A0D42E700C09CC1 /* Assets.xcassets */; };
+		E28633032A0D42E700C09CC1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E28633022A0D42E700C09CC1 /* Preview Assets.xcassets */; };
+		E286330F2A0D433E00C09CC1 /* Task.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E286330D2A0D433E00C09CC1 /* Task.xcdatamodeld */; };
+		E28633122A0D437F00C09CC1 /* PersistantContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28633112A0D437F00C09CC1 /* PersistantContainer.swift */; };
+		E28633182A0D461E00C09CC1 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28633172A0D461E00C09CC1 /* Home.swift */; };
+		E286331A2A0D480300C09CC1 /* AddItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28633192A0D480300C09CC1 /* AddItem.swift */; };
+		E286331D2A0D54C600C09CC1 /* ViewMemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E286331C2A0D54C600C09CC1 /* ViewMemo.swift */; };
+		E286331F2A0D5BAD00C09CC1 /* DeleteMemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E286331E2A0D5BAD00C09CC1 /* DeleteMemo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E28632F82A0D42E400C09CC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E28632EA2A0D42E300C09CC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E28632F52A0D42E400C09CC1;
+			remoteInfo = "TaskWatch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E28633092A0D42E700C09CC1 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				E28632F72A0D42E400C09CC1 /* TaskWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E28632F02A0D42E400C09CC1 /* TaskWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E28632F62A0D42E400C09CC1 /* TaskWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TaskWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E28632FB2A0D42E400C09CC1 /* TaskWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskWatchApp.swift; sourceTree = "<group>"; };
+		E28632FD2A0D42E400C09CC1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E28632FF2A0D42E700C09CC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E28633022A0D42E700C09CC1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E286330E2A0D433E00C09CC1 /* Task.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Task.xcdatamodel; sourceTree = "<group>"; };
+		E28633112A0D437F00C09CC1 /* PersistantContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistantContainer.swift; sourceTree = "<group>"; };
+		E28633172A0D461E00C09CC1 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		E28633192A0D480300C09CC1 /* AddItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItem.swift; sourceTree = "<group>"; };
+		E286331B2A0D4BCB00C09CC1 /* TaskWatch-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "TaskWatch-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		E286331C2A0D54C600C09CC1 /* ViewMemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewMemo.swift; sourceTree = "<group>"; };
+		E286331E2A0D5BAD00C09CC1 /* DeleteMemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteMemo.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E28632F32A0D42E400C09CC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E28632E92A0D42E300C09CC1 = {
+			isa = PBXGroup;
+			children = (
+				E28632FA2A0D42E400C09CC1 /* TaskWatch Watch App */,
+				E28632F12A0D42E400C09CC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E28632F12A0D42E400C09CC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E28632F02A0D42E400C09CC1 /* TaskWatch.app */,
+				E28632F62A0D42E400C09CC1 /* TaskWatch Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E28632FA2A0D42E400C09CC1 /* TaskWatch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				E286331B2A0D4BCB00C09CC1 /* TaskWatch-Watch-App-Info.plist */,
+				E28633102A0D434500C09CC1 /* Shared */,
+				E28632FB2A0D42E400C09CC1 /* TaskWatchApp.swift */,
+				E28632FD2A0D42E400C09CC1 /* ContentView.swift */,
+				E28632FF2A0D42E700C09CC1 /* Assets.xcassets */,
+				E28633012A0D42E700C09CC1 /* Preview Content */,
+			);
+			path = "TaskWatch Watch App";
+			sourceTree = "<group>";
+		};
+		E28633012A0D42E700C09CC1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E28633022A0D42E700C09CC1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E28633102A0D434500C09CC1 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				E28633162A0D460E00C09CC1 /* ViewModel */,
+				E28633142A0D45FB00C09CC1 /* Model */,
+				E28633132A0D45F200C09CC1 /* View */,
+				E286330D2A0D433E00C09CC1 /* Task.xcdatamodeld */,
+				E28633112A0D437F00C09CC1 /* PersistantContainer.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		E28633132A0D45F200C09CC1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E28633172A0D461E00C09CC1 /* Home.swift */,
+				E28633192A0D480300C09CC1 /* AddItem.swift */,
+				E286331C2A0D54C600C09CC1 /* ViewMemo.swift */,
+				E286331E2A0D5BAD00C09CC1 /* DeleteMemo.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E28633142A0D45FB00C09CC1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E28633162A0D460E00C09CC1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E28632EF2A0D42E400C09CC1 /* TaskWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E286330A2A0D42E700C09CC1 /* Build configuration list for PBXNativeTarget "TaskWatch" */;
+			buildPhases = (
+				E28632EE2A0D42E400C09CC1 /* Resources */,
+				E28633092A0D42E700C09CC1 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E28632F92A0D42E400C09CC1 /* PBXTargetDependency */,
+			);
+			name = TaskWatch;
+			productName = TaskWatch;
+			productReference = E28632F02A0D42E400C09CC1 /* TaskWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		E28632F52A0D42E400C09CC1 /* TaskWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E28633062A0D42E700C09CC1 /* Build configuration list for PBXNativeTarget "TaskWatch Watch App" */;
+			buildPhases = (
+				E28632F22A0D42E400C09CC1 /* Sources */,
+				E28632F32A0D42E400C09CC1 /* Frameworks */,
+				E28632F42A0D42E400C09CC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TaskWatch Watch App";
+			productName = "TaskWatch Watch App";
+			productReference = E28632F62A0D42E400C09CC1 /* TaskWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E28632EA2A0D42E300C09CC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					E28632EF2A0D42E400C09CC1 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					E28632F52A0D42E400C09CC1 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = E28632ED2A0D42E300C09CC1 /* Build configuration list for PBXProject "TaskWatch" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E28632E92A0D42E300C09CC1;
+			productRefGroup = E28632F12A0D42E400C09CC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E28632EF2A0D42E400C09CC1 /* TaskWatch */,
+				E28632F52A0D42E400C09CC1 /* TaskWatch Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E28632EE2A0D42E400C09CC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E28632F42A0D42E400C09CC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E28633032A0D42E700C09CC1 /* Preview Assets.xcassets in Resources */,
+				E28633002A0D42E700C09CC1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E28632F22A0D42E400C09CC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E28633122A0D437F00C09CC1 /* PersistantContainer.swift in Sources */,
+				E286330F2A0D433E00C09CC1 /* Task.xcdatamodeld in Sources */,
+				E286331A2A0D480300C09CC1 /* AddItem.swift in Sources */,
+				E28633182A0D461E00C09CC1 /* Home.swift in Sources */,
+				E286331F2A0D5BAD00C09CC1 /* DeleteMemo.swift in Sources */,
+				E28632FE2A0D42E400C09CC1 /* ContentView.swift in Sources */,
+				E28632FC2A0D42E400C09CC1 /* TaskWatchApp.swift in Sources */,
+				E286331D2A0D54C600C09CC1 /* ViewMemo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E28632F92A0D42E400C09CC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E28632F52A0D42E400C09CC1 /* TaskWatch Watch App */;
+			targetProxy = E28632F82A0D42E400C09CC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E28633042A0D42E700C09CC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E28633052A0D42E700C09CC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E28633072A0D42E700C09CC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TaskWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = CKUDHZFNT6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TaskWatch-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = TaskWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AgoraServices.TaskWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		E28633082A0D42E700C09CC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TaskWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = CKUDHZFNT6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TaskWatch-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = TaskWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AgoraServices.TaskWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		E286330B2A0D42E700C09CC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CKUDHZFNT6;
+				INFOPLIST_KEY_CFBundleDisplayName = TaskWatch;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AgoraServices.TaskWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E286330C2A0D42E700C09CC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CKUDHZFNT6;
+				INFOPLIST_KEY_CFBundleDisplayName = TaskWatch;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AgoraServices.TaskWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E28632ED2A0D42E300C09CC1 /* Build configuration list for PBXProject "TaskWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E28633042A0D42E700C09CC1 /* Debug */,
+				E28633052A0D42E700C09CC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E28633062A0D42E700C09CC1 /* Build configuration list for PBXNativeTarget "TaskWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E28633072A0D42E700C09CC1 /* Debug */,
+				E28633082A0D42E700C09CC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E286330A2A0D42E700C09CC1 /* Build configuration list for PBXNativeTarget "TaskWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E286330B2A0D42E700C09CC1 /* Debug */,
+				E286330C2A0D42E700C09CC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E286330D2A0D433E00C09CC1 /* Task.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E286330E2A0D433E00C09CC1 /* Task.xcdatamodel */,
+			);
+			currentVersion = E286330E2A0D433E00C09CC1 /* Task.xcdatamodel */;
+			path = Task.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E28632EA2A0D42E300C09CC1 /* Project object */;
+}
